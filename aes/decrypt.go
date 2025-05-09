@@ -1,12 +1,12 @@
 package aes
 
 import (
-	"Emi-Encryption/common"
-	"Emi-Encryption/padding"
-	"Emi-Encryption/types"
 	"crypto/aes"
 	"crypto/cipher"
 	"fmt"
+	"github.com/simonks2016/emi-encryption/common"
+	"github.com/simonks2016/emi-encryption/padding"
+	"github.com/simonks2016/emi-encryption/types"
 )
 
 func Decrypt[T types.StringOrBytes](cipherText T, key T) (string, error) {

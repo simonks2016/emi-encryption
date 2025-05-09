@@ -1,6 +1,6 @@
 package common
 
-import "Emi-Encryption/types"
+import "github.com/simonks2016/emi-encryption/types"
 
 func ToBytes[T types.StringOrBytes](data T) []byte {
 	switch v := any(data).(type) {

@@ -1,6 +1,6 @@
 package padding
 
-import "Emi-Encryption/errors"
+import "github.com/simonks2016/emi-encryption/errors"
 
 // PKCS7 去填充
 func Pkcs7UnPadding(data []byte) ([]byte, error) {

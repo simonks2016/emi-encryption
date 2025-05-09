@@ -1,12 +1,12 @@
 package hash
 
 import (
-	"Emi-Encryption/common"
-	"Emi-Encryption/types"
 	"crypto/hmac"
 	"crypto/sha256"
 	"crypto/sha512"
 	"fmt"
+	"github.com/simonks2016/emi-encryption/common"
+	"github.com/simonks2016/emi-encryption/types"
 )
 
 func HS256[T types.StringOrBytes](data T, key T) string {

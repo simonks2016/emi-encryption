@@ -1,10 +1,10 @@
 package hash
 
 import (
-	"Emi-Encryption/common"
-	"Emi-Encryption/types"
 	"crypto/md5"
 	"fmt"
+	"github.com/simonks2016/emi-encryption/common"
+	"github.com/simonks2016/emi-encryption/types"
 )
 
 func M5[T types.StringOrBytes](str T) string {

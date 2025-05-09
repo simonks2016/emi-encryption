@@ -1,14 +1,14 @@
 package aes
 
 import (
-	"Emi-Encryption/common"
-	"Emi-Encryption/padding"
-	"Emi-Encryption/types"
 	"crypto/aes"
 	"crypto/cipher"
 	"encoding/base64"
 	"encoding/hex"
 	"fmt"
+	"github.com/simonks2016/emi-encryption/common"
+	"github.com/simonks2016/emi-encryption/padding"
+	"github.com/simonks2016/emi-encryption/types"
 )
 
 // AES 加密函数（CBC + PKCS7 + base64 输出）

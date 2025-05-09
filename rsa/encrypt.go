@@ -1,13 +1,13 @@
 package rsa
 
 import (
-	"Emi-Encryption/common"
-	errors2 "Emi-Encryption/errors"
-	"Emi-Encryption/types"
 	"crypto/rand"
 	"crypto/rsa"
 	"crypto/x509"
 	"encoding/pem"
+	"github.com/simonks2016/emi-encryption/common"
+	errors2 "github.com/simonks2016/emi-encryption/errors"
+	"github.com/simonks2016/emi-encryption/types"
 )
 
 func PublicKeyEncrypt[T types.StringOrBytes](text T, publicKey T) ([]byte, error) {

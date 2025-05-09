@@ -1,14 +1,14 @@
 package rsa
 
 import (
-	"Emi-Encryption/common"
-	errors2 "Emi-Encryption/errors"
-	"Emi-Encryption/types"
 	"crypto/rand"
 	"crypto/rsa"
 	"crypto/x509"
 	"encoding/pem"
 	"fmt"
+	"github.com/simonks2016/emi-encryption/common"
+	errors2 "github.com/simonks2016/emi-encryption/errors"
+	"github.com/simonks2016/emi-encryption/types"
 )
 
 // RSAPrivateDecrypt 用私钥解密

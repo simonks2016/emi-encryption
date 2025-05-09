@@ -1,10 +1,10 @@
 package requestId
 
 import (
-	"Emi-Encryption/base"
-	"Emi-Encryption/hash"
 	"errors"
 	"fmt"
+	"github.com/simonks2016/emi-encryption/base"
+	"github.com/simonks2016/emi-encryption/hash"
 	"reflect"
 	"sort"
 	"strings"

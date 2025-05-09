@@ -1,10 +1,10 @@
 package Emi_Encryption
 
 import (
-	"Emi-Encryption/aes"
-	"Emi-Encryption/requestId"
-	"Emi-Encryption/rsa"
-	"Emi-Encryption/types"
+	"github.com/simonks2016/emi-encryption/aes"
+	"github.com/simonks2016/emi-encryption/requestId"
+	"github.com/simonks2016/emi-encryption/rsa"
+	"github.com/simonks2016/emi-encryption/types"
 )
 
 func EncryptAES[T types.StringOrBytes](data, key T) (string, error) {
