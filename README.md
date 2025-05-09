@@ -16,7 +16,7 @@
 ## 📦 安装
 
 ```bash
-go get github.com/simonks2016/emi-encryption@latest
+go get github.com/simonks2016/emi-encryption
 ```
 
 ## AES加密函数
